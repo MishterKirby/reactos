@@ -33,6 +33,9 @@ add_subdirectory(credui)
 if(ARCH STREQUAL "i386")
     add_subdirectory(crtdll) # only built on x86
 endif()
+
+add_subdirectory(dwmcore)
+add_subdirectory(udwm)
 add_subdirectory(crypt32)
 add_subdirectory(cryptdlg)
 add_subdirectory(cryptdll)
